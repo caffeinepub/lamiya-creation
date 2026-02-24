@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-display-the-phone-number-8130422230-as-a-clickable-contact-link-tel-8130422230-in-the-site-footer-alongside-the-existing-brand-info-section",
+      "title": "Display the phone number 8130422230 as a clickable contact link (tel:8130422230) in the site footer, alongside the existing brand info section.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add phone number 8130422230 to the site/app",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Lamiya Creation",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

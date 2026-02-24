@@ -1,0 +1,37 @@
+{
+  "kind": "build_request",
+  "title": "Add contact phone number to the site",
+  "projectName": "Lamiya Creation",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Display the phone number 8130422230 as a clickable contact link (tel:8130422230) in the site footer, alongside the existing brand info section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-7"
+        ],
+        "quotes": [
+          "add my phone no. phone no . 8130422230"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The phone number 8130422230 is visible in the footer.",
+        "The phone number is rendered as a clickable `tel:` link.",
+        "Tapping the link on mobile initiates a phone call to 8130422230.",
+        "The styling is consistent with the existing footer design."
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Adding the phone number to the header or any page other than the footer.",
+    "Adding WhatsApp or SMS integration.",
+    "Changing any backend logic."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
